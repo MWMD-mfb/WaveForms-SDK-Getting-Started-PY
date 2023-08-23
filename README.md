@@ -5,6 +5,9 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 
 ***
 
+## Install
+pip3 install git+https://github.com/Digilent/WaveForms-SDK-Getting-Started-PY#egg=WF_SDK
+
 ## Available tests:
 * empty test template
 * analog signal generation and recording test
