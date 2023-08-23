@@ -7,7 +7,7 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 
 ## Install
 ```
-pip3 install git+https://github.com/Digilent/WaveForms-SDK-Getting-Started-PY#egg=WF_SDK
+pip3 install git+https://github.com/MWMD-mfb/WaveForms-SDK-Getting-Started-PY#egg=WF_SDK
 ```
 
 ## Available tests:
