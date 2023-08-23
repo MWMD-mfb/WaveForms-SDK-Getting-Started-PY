@@ -148,7 +148,9 @@ def open(device=None, config=0):
     """
     device_names = [("Analog Discovery", constants.devidDiscovery), ("Analog Discovery 2", constants.devidDiscovery2),
                     ("Analog Discovery Studio", constants.devidDiscovery2), ("Digital Discovery", constants.devidDDiscovery),
-                    ("Analog Discovery Pro 3X50", constants.devidADP3X50), ("Analog Discovery Pro 5250", constants.devidADP5250)]
+                    ("Analog Discovery Pro 3X50", constants.devidADP3X50), ("Analog Discovery Pro 5250", constants.devidADP5250),
+                    ("Analog Discovery 3", constants.devidDiscovery3)]                
+    # --- MFB: Added device name for Analog discovery 3, device id = 10 must also be added in dwfconstants.py 
     
     # decode device names
     device_type = constants.enumfilterAll
